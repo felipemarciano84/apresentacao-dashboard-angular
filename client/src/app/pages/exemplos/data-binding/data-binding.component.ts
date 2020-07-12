@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html'
+  selector: 'app-data-binding',
+  templateUrl: './data-binding.component.html'
 })
-export class HomeComponent implements OnInit {
+export class DataBindingComponent implements OnInit {
 
   public id: number = 0;
   public NomeCurso : string = 'Angular com ASP.NET Core';
